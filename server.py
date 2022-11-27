@@ -1,6 +1,6 @@
 import socket
 
-HOST = '000.000.000.00' #Your IP address, get from cmd with command line: ipconfig
+HOST = '192.168.0.145' #Your IP address, get from cmd with command line: ipconfig
 PORT = 9090
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
